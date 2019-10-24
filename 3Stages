@@ -1,0 +1,27 @@
+pipeline {
+    agent any
+    stages {
+        stage('Bagu Build-1') {
+            steps {
+                echo 'This is the frist step in the pipeline - build'
+            }
+        }
+        stage ('Roshni Unit Test-2') {
+            steps {
+                echo ' This is unit test stage. Stage 2'
+            }
+        }
+        stage ('BaRosh regression-3') {
+            steps {
+                echo 'Reg Step1111111'
+                echo 'Reg Step22222222'
+                echo 'Reg Step33333'
+            }
+        }
+        stage('RoBash-4') {
+            steps {
+                echo 'Error -4'
+            }
+        }
+    }
+}
