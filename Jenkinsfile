@@ -4,7 +4,7 @@ pipeline {
     stage('Fluffy Build') {
       steps {
         echo 'Building'
-        sh 'echo Another Placeholder.'
+        sh 'echo Edited Placeholder wow'
       }
     }
     stage('Fluffy Test') {
